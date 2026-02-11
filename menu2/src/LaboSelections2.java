@@ -25,7 +25,6 @@ public class LaboSelections2 {
             }
 
             System.out.println("Le nombre saisi a " + chiffresDansNombreSaisi + " chiffres");
-
         }
     }
 }

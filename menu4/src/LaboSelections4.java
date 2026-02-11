@@ -16,11 +16,9 @@ public class LaboSelections4 {
             } else if (lettreMinusculeSaisie == 'j' || lettreMinusculeSaisie < 'j') {
                 lettreSuivantLettreSaisie = lettreMinusculeSaisie + 1;
                 System.out.println("La lettre suivant celle saisie est : " + ((char) lettreSuivantLettreSaisie));
-
             }
         } else {
             System.out.print("La lettre est invalide");
         }
-
-        }
     }
+}
