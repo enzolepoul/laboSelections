@@ -2,18 +2,13 @@ public class LaboSelections3 {
     public static void main(String[] args) throws Exception {
         int nombreEntier1;
         int nombreEntier2;
-        int premierPlusGrandMultipleDe5DuNombre;
-        int deuxiemePlusGrandMultipleDe5DuNombre;
 
         System.out.print("Veuillez entrer un nombre entier positif : ");
 
         nombreEntier1 = Clavier.lireInt();
 
         if (nombreEntier1 % 5 == 0  && nombreEntier1 >= 15) {
-            premierPlusGrandMultipleDe5DuNombre = nombreEntier1 - 10;
-            deuxiemePlusGrandMultipleDe5DuNombre = nombreEntier1 - 5;
-
-            System.out.println("Les 3 plus grands multiples de 5 de " + nombreEntier1 + " sont : " + premierPlusGrandMultipleDe5DuNombre + ", " + deuxiemePlusGrandMultipleDe5DuNombre + ", " + nombreEntier1);
+            System.out.println("Les 3 plus grands multiples de 5 de " + nombreEntier1 + " sont : " + (nombreEntier1 - 10) + ", " + (nombreEntier1 - 5) + ", " + nombreEntier1);
         } else {
             System.out.print("Veuillez entrer un autre nombre entier : ");
             
